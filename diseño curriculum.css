@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272829;
+    height: 40px;
+}
+.logo img {
+    height: 50px;
+}
+nav {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+nav a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    padding-right: 20px;
+    color: white;
+}
+.nav{
+    text-decoration: none;
+}
+.nombre{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image:linear-gradient(
+    26deg,
+        rgba(0, 0, 0, 1.552),
+        rgba(50, 13, 40, 0.752)
+    )
+    ,url(./vista-posterior-programador-trabajando-toda-noche.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nombre1{
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 90px;
+}
+.miProfesion{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.sobreMi {
+    font-family: 'PT Serif', serif;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 15px;
+    background-color: white;
+    color: black;
+}
+.sobreMi img{
+    height: 400px;
+    width: 400px;
+}
+#yoSoy{
+    font-size: 40px;
+}
+#miVida{
+    padding-right: 130px;
+    font-size: 20px;
+}
+.lenguajes{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8D9DA;
+
+}
+.lenguajes img{
+    height: 100px;
+    border-radius: 20px;
+}
+.contacto{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contacto img{
+    height: 70px;
+    margin: 20px;
+}
+
+@media (max-width: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #272829;
+    }
+    
+    nav {
+        display: flex;
+        padding-bottom: 20px;
+    }
+}
